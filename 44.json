@@ -1,0 +1,238 @@
+[
+  {
+    "order": 7,
+    "meta": {
+      "title": "货柜管理",
+      "icon": "icon-oss-huoguiguanli"
+    },
+    "path": "/container-manage",
+    "children": [
+      {
+        "meta": {
+          "title": "商品管理"
+        },
+        "path": "/container-manage/container-commodity-management",
+        "children": [
+          {
+            "path": "/container-manage/container-commodity-management/spu/:id/:categoryId",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          },
+          {
+            "path": "/container-manage/container-commodity-management/sku/:commodityId/:SPUId",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          },
+          {
+            "path": "/container-manage/container-commodity-management/ark/:id/:categoryId",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "container-manage",
+          "entryUrl": "//localhost:3013"
+        }
+      },
+      {
+        "meta": {
+          "title": "报关信息管理"
+        },
+        "path": "/container-manage/customs-manage",
+        "children": [
+          {
+            "path": "/container-manage/customs-manage/:id",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "container-manage",
+          "entryUrl": "//localhost:3013"
+        }
+      },
+      {
+        "meta": {
+          "title": "SOP管理"
+        },
+        "path": "/container-manage/sop/list",
+        "children": [
+          {
+            "path": "/container-manage/sop/list/detail/:id",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          },
+          {
+            "path": "/container-manage/sop/list/option-detail",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "container-manage",
+          "entryUrl": "//localhost:3013"
+        }
+      },
+      {
+        "meta": {
+          "title": "合同管理"
+        },
+        "path": "/container-manage/contract/list",
+        "children": [
+          {
+            "path": "/container-manage/contract/list/detail",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "container-manage",
+          "entryUrl": "//localhost:3013"
+        }
+      },
+      {
+        "meta": {
+          "title": "标签管理"
+        },
+        "path": "/container-manage/tag-manage",
+        "appMicroConfig": {
+          "code": "container-manage",
+          "entryUrl": "//localhost:3013"
+        }
+      },
+      {
+        "meta": {
+          "title": "黑名单管理"
+        },
+        "path": "/container-manage/blacklist-management",
+        "appMicroConfig": {
+          "code": "container-manage",
+          "entryUrl": "//localhost:3013"
+        }
+      },
+      {
+        "meta": {
+          "title": "费用项预设值管理"
+        },
+        "path": "/container-manage/cost-values-management",
+        "children": [
+          {
+            "path": "/container-manage/cost-values-management/add",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          },
+          {
+            "path": "/container-manage/cost-values-management/edit/:id",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "container-manage",
+          "entryUrl": "//localhost:3013"
+        }
+      },
+      {
+        "meta": {
+          "title": "费用模板管理"
+        },
+        "path": "/container-manage/cost-management",
+        "children": [
+          {
+            "path": "/container-manage/cost-management/add",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          },
+          {
+            "path": "/container-manage/cost-management/edit/:id",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "container-manage",
+          "entryUrl": "//localhost:3013"
+        }
+      },
+      {
+        "meta": {
+          "title": "供应商管理"
+        },
+        "path": "/container-manage/supplier",
+        "children": [
+          {
+            "path": "/container-manage/supplier/custom",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          },
+          {
+            "path": "/container-manage/supplier/transport",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          },
+          {
+            "path": "/container-manage/supplier/vendor",
+            "appMicroConfig": {
+              "code": "container-manage",
+              "entryUrl": "//localhost:3013"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "container-manage",
+          "entryUrl": "//localhost:3013"
+        }
+      },
+      {
+        "meta": {
+          "title": "客户管理"
+        },
+        "path": "/container-manage/customer/list",
+        "appMicroConfig": {
+          "code": "container-manage",
+          "entryUrl": "//localhost:3013"
+        }
+      },
+      {
+        "meta": {
+          "title": "角色管理"
+        },
+        "path": "/container-manage/role-management",
+        "appMicroConfig": {
+          "code": "container-manage",
+          "entryUrl": "//localhost:3013"
+        }
+      }
+    ],
+    "appMicroConfig": {
+      "code": "container-manage",
+      "entryUrl": "//localhost:3013"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "order": 7,
+    "meta": {
+      "title": "关务管理",
+      "icon": "icon-guanwuguanli"
+    },
+    "path": "/customs-manage",
+    "children": [
+      {
+        "meta": {
+          "title": "角色管理"
+        },
+        "path": "/customs-manage/role-management",
+        "appMicroConfig": {
+          "code": "customs-manage",
+          "entryUrl": "//localhost:3012"
+        }
+      }
+    ],
+    "appMicroConfig": {
+      "code": "customs-manage",
+      "entryUrl": "//localhost:3012"
+    }
+  }
+]

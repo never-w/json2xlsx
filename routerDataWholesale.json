@@ -1,0 +1,180 @@
+[
+  {
+    "order": 6,
+    "meta": {
+      "title": "批发管理",
+      "icon": "icon-pifaguanli"
+    },
+    "path": "/wholesale-management",
+    "children": [
+      {
+        "meta": {
+          "title": "商品管理"
+        },
+        "path": "/wholesale-management/commodity/list",
+        "children": [
+          {
+            "path": "/wholesale-management/commodity/list/sku/:id",
+            "appMicroConfig": {
+              "code": "wholesale-management",
+              "entryUrl": "//localhost:3015"
+            }
+          },
+          {
+            "path": "/wholesale-management/commodity/list/add",
+            "appMicroConfig": {
+              "code": "wholesale-management",
+              "entryUrl": "//localhost:3015"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "wholesale-management",
+          "entryUrl": "//localhost:3015"
+        }
+      },
+      {
+        "meta": {
+          "title": "商户管理"
+        },
+        "path": "/wholesale-management/business-management",
+        "appMicroConfig": {
+          "code": "wholesale-management",
+          "entryUrl": "//localhost:3015"
+        }
+      },
+      {
+        "meta": {
+          "title": "角色管理"
+        },
+        "path": "/wholesale-management/role-management",
+        "appMicroConfig": {
+          "code": "wholesale-management",
+          "entryUrl": "//localhost:3015"
+        }
+      },
+      {
+        "meta": {
+          "title": "库存管理"
+        },
+        "path": "/wholesale-management/inventory-management",
+        "children": [
+          {
+            "meta": {
+              "title": "盘点查看"
+            },
+            "path": "/wholesale-management/inventory-management/view-inventory-management",
+            "children": [
+              {
+                "path": "/wholesale-management/inventory-management/view-inventory-management/view-inventory-management-detail/:id",
+                "appMicroConfig": {
+                  "code": "wholesale-management",
+                  "entryUrl": "//localhost:3015"
+                }
+              }
+            ],
+            "appMicroConfig": {
+              "code": "wholesale-management",
+              "entryUrl": "//localhost:3015"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "wholesale-management",
+          "entryUrl": "//localhost:3015"
+        }
+      },
+      {
+        "meta": {
+          "title": "欠款管理"
+        },
+        "path": "/wholesale-management/arrears/statistics",
+        "children": [
+          {
+            "path": "/wholesale-management/arrears/statistics/area",
+            "appMicroConfig": {
+              "code": "wholesale-management",
+              "entryUrl": "//localhost:3015"
+            }
+          },
+          {
+            "path": "/wholesale-management/arrears/statistics/customer",
+            "appMicroConfig": {
+              "code": "wholesale-management",
+              "entryUrl": "//localhost:3015"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "wholesale-management",
+          "entryUrl": "//localhost:3015"
+        }
+      },
+      {
+        "path": "/wholesale-management/report-form",
+        "appMicroConfig": {
+          "code": "wholesale-management",
+          "entryUrl": "//localhost:3015"
+        }
+      },
+      {
+        "meta": {
+          "title": "报表"
+        },
+        "path": "/wholesale-management/report",
+        "children": [
+          {
+            "path": "/wholesale-management/report/allot-out",
+            "appMicroConfig": {
+              "code": "wholesale-management",
+              "entryUrl": "//localhost:3015"
+            }
+          },
+          {
+            "path": "/wholesale-management/report/allot-in",
+            "appMicroConfig": {
+              "code": "wholesale-management",
+              "entryUrl": "//localhost:3015"
+            }
+          },
+          {
+            "path": "/wholesale-management/report/sale",
+            "appMicroConfig": {
+              "code": "wholesale-management",
+              "entryUrl": "//localhost:3015"
+            }
+          },
+          {
+            "path": "/wholesale-management/report/order",
+            "appMicroConfig": {
+              "code": "wholesale-management",
+              "entryUrl": "//localhost:3015"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "wholesale-management",
+          "entryUrl": "//localhost:3015"
+        }
+      },
+      {
+        "path": "/wholesale-management/order/detail",
+        "appMicroConfig": {
+          "code": "wholesale-management",
+          "entryUrl": "//localhost:3015"
+        }
+      },
+      {
+        "path": "/wholesale-management/order_returned/detail",
+        "appMicroConfig": {
+          "code": "wholesale-management",
+          "entryUrl": "//localhost:3015"
+        }
+      }
+    ],
+    "appMicroConfig": {
+      "code": "wholesale-management",
+      "entryUrl": "//localhost:3015"
+    }
+  }
+]

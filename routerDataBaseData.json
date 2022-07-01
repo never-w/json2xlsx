@@ -1,0 +1,454 @@
+[
+  {
+    "path": "/dashboard",
+    "meta": {
+      "title": "首页",
+      "isMenu": true,
+      "icon": "icon-shouye"
+    },
+    "children": null,
+    "appMicroConfig": {
+      "code": "dashboard",
+      "entryUrl": "//localhost:3011"
+    }
+  },
+  {
+    "order": 1,
+    "path": "/base-data",
+    "meta": {
+      "title": "基础管理",
+      "isMenu": true,
+      "icon": "icon-jichuguanli"
+    },
+    "children": [
+      {
+        "path": "/base-data/commodity",
+        "meta": {
+          "title": "商品管理"
+        },
+        "children": [
+          {
+            "path": "/base-data/commodity/list",
+            "meta": {
+              "title": "商品基础管理",
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "商品管理"
+                  },
+                  {
+                    "name": "商品基础管理"
+                  }
+                ]
+              }
+            },
+            "children": [
+              {
+                "path": "/base-data/commodity/list/add",
+                "meta": {
+                  "breadcrumb": {
+                    "items": [
+                      {
+                        "name": "基础管理"
+                      },
+                      {
+                        "name": "商品管理"
+                      },
+                      {
+                        "name": "商品基础管理",
+                        "path": "/base-data/commodity/list"
+                      },
+                      {
+                        "name": "添加商品"
+                      }
+                    ]
+                  }
+                },
+                "children": null,
+                "appMicroConfig": {
+                  "code": "base-data",
+                  "entryUrl": "//localhost:3011"
+                }
+              },
+              {
+                "path": "/base-data/commodity/list/edit-spec/:id",
+                "meta": {
+                  "breadcrumb": {
+                    "items": [
+                      {
+                        "name": "基础管理"
+                      },
+                      {
+                        "name": "商品管理"
+                      },
+                      {
+                        "name": "商品基础管理",
+                        "path": "/base-data/commodity/list"
+                      },
+                      {
+                        "name": "修改规格"
+                      }
+                    ]
+                  }
+                },
+                "children": null,
+                "appMicroConfig": {
+                  "code": "base-data",
+                  "entryUrl": "//localhost:3011"
+                }
+              },
+              {
+                "path": "/base-data/commodity/list/sku/:id",
+                "meta": {
+                  "breadcrumb": {
+                    "items": [
+                      {
+                        "name": "基础管理"
+                      },
+                      {
+                        "name": "商品管理"
+                      },
+                      {
+                        "name": "商品基础管理",
+                        "path": "/base-data/commodity/list"
+                      },
+                      {
+                        "name": "管理SKU"
+                      }
+                    ]
+                  }
+                },
+                "children": null,
+                "appMicroConfig": {
+                  "code": "base-data",
+                  "entryUrl": "//localhost:3011"
+                }
+              }
+            ],
+            "appMicroConfig": {
+              "code": "base-data",
+              "entryUrl": "//localhost:3011"
+            }
+          },
+          {
+            "path": "/base-data/commodity/classification",
+            "meta": {
+              "title": "商品分类",
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "商品管理"
+                  },
+                  {
+                    "name": "商品分类"
+                  }
+                ]
+              }
+            },
+            "children": [
+              {
+                "path": "/base-data/commodity/classification/variety/:id",
+                "meta": {
+                  "breadcrumb": {
+                    "items": [
+                      {
+                        "name": "基础管理"
+                      },
+                      {
+                        "name": "商品管理"
+                      },
+                      {
+                        "name": "商品分类",
+                        "path": "/base-data/commodity/classification"
+                      },
+                      {
+                        "name": "商品管理品种/产地"
+                      }
+                    ]
+                  }
+                },
+                "children": null,
+                "appMicroConfig": {
+                  "code": "base-data",
+                  "entryUrl": "//localhost:3011"
+                }
+              }
+            ],
+            "appMicroConfig": {
+              "code": "base-data",
+              "entryUrl": "//localhost:3011"
+            }
+          },
+          {
+            "path": "/base-data/commodity/place",
+            "meta": {
+              "title": "商品产地管理",
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "商品产地管理"
+                  }
+                ]
+              }
+            },
+            "children": null,
+            "appMicroConfig": {
+              "code": "base-data",
+              "entryUrl": "//localhost:3011"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "base-data",
+          "entryUrl": "//localhost:3011"
+        }
+      },
+      {
+        "path": "/base-data/varieties-group-management",
+        "authKey": "OSS_VARIETY_GROUP_MANAGEMENT_FUNCTION",
+        "meta": {
+          "title": "品种组管理",
+          "breadcrumb": {
+            "items": [
+              {
+                "name": "基础管理"
+              },
+              {
+                "name": "品种组管理"
+              }
+            ]
+          }
+        },
+        "children": [
+          {
+            "path": "/base-data/varieties-group-management/varieties-group-sku-management/:id",
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "品种组管理",
+                    "path": "/base-data/varieties-group-management"
+                  },
+                  {
+                    "name": "管理SKU"
+                  }
+                ]
+              }
+            },
+            "children": null,
+            "appMicroConfig": {
+              "code": "base-data",
+              "entryUrl": "//localhost:3011"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "base-data",
+          "entryUrl": "//localhost:3011"
+        }
+      },
+      {
+        "path": "/base-data/supplier-management",
+        "authKey": "OSS_SUPPLIER_MANAGEMENT_FUNCTION",
+        "meta": {
+          "title": "供应商管理",
+          "breadcrumb": {
+            "items": [
+              {
+                "name": "基础管理"
+              },
+              {
+                "name": "供应商管理"
+              }
+            ]
+          }
+        },
+        "children": null,
+        "appMicroConfig": {
+          "code": "base-data",
+          "entryUrl": "//localhost:3011"
+        }
+      },
+      {
+        "path": "/base-data/storage-management",
+        "component": {},
+        "authKey": "OSS_FRUIT_STORAGE_MANAGEMENT_FUNCTION",
+        "meta": {
+          "title": "水果存储管理",
+          "breadcrumb": {
+            "items": [
+              {
+                "name": "基础管理"
+              },
+              {
+                "name": "水果存储管理"
+              }
+            ]
+          }
+        },
+        "children": null,
+        "appMicroConfig": {
+          "code": "base-data",
+          "entryUrl": "//localhost:3011"
+        }
+      },
+      {
+        "path": "/base-data/customer-management",
+        "authKey": "OSS_CUSTOMER_MANAGEMENT_FUNCTION",
+        "meta": {
+          "title": "客户管理",
+          "breadcrumb": {
+            "items": [
+              {
+                "name": "基础管理"
+              },
+              {
+                "name": "客户管理"
+              }
+            ]
+          }
+        },
+        "children": null,
+        "appMicroConfig": {
+          "code": "base-data",
+          "entryUrl": "//localhost:3011"
+        }
+      },
+      {
+        "path": "/base-data/fee/management",
+        "authKey": "OSS_EXPENSE_MANAGEMENT_FUNCTION",
+        "meta": {
+          "title": "费用项管理",
+          "breadcrumb": {
+            "items": [
+              {
+                "name": "基础管理"
+              },
+              {
+                "name": "费用项管理"
+              }
+            ]
+          }
+        },
+        "children": [
+          {
+            "path": "/base-data/fee/management/detail",
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "费用项管理",
+                    "path": "/base-data/fee/management"
+                  },
+                  {
+                    "name": "详情"
+                  }
+                ]
+              }
+            },
+            "children": null,
+            "appMicroConfig": {
+              "code": "base-data",
+              "entryUrl": "//localhost:3011"
+            }
+          },
+          {
+            "path": "/base-data/fee/management/fee-rule/add",
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "费用项管理",
+                    "path": "/base-data/fee/management"
+                  },
+                  {
+                    "name": "费用项类型新增"
+                  }
+                ]
+              }
+            },
+            "children": null,
+            "appMicroConfig": {
+              "code": "base-data",
+              "entryUrl": "//localhost:3011"
+            }
+          },
+          {
+            "path": "/base-data/fee/management/fee-rule/edit",
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "费用项管理",
+                    "path": "/base-data/fee/management"
+                  },
+                  {
+                    "name": "费用项类型新增"
+                  }
+                ]
+              }
+            },
+            "children": null,
+            "appMicroConfig": {
+              "code": "base-data",
+              "entryUrl": "//localhost:3011"
+            }
+          },
+          {
+            "path": "/base-data/fee/management/rule-config",
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "费用项管理",
+                    "path": "/base-data/fee/management"
+                  },
+                  {
+                    "name": "费用项类型新增"
+                  }
+                ]
+              }
+            },
+            "children": null,
+            "appMicroConfig": {
+              "code": "base-data",
+              "entryUrl": "//localhost:3011"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "base-data",
+          "entryUrl": "//localhost:3011"
+        }
+      }
+    ],
+    "appMicroConfig": {
+      "code": "base-data",
+      "entryUrl": "//localhost:3011"
+    }
+  }
+]

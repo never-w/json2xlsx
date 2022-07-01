@@ -1,0 +1,26 @@
+[
+  {
+    "order": 9,
+    "meta": {
+      "title": "运输管理",
+      "icon": "icon-yundanguanli"
+    },
+    "path": "/transport-manage",
+    "children": [
+      {
+        "meta": {
+          "title": "角色管理"
+        },
+        "path": "/transport-manage/role-management",
+        "appMicroConfig": {
+          "code": "transport-manage",
+          "entryUrl": "//localhost:3017"
+        }
+      }
+    ],
+    "appMicroConfig": {
+      "code": "transport-manage",
+      "entryUrl": "//localhost:3017"
+    }
+  }
+]

@@ -1,0 +1,179 @@
+[
+  {
+    "order": 2,
+    "meta": {
+      "title": "系统管理",
+      "icon": "icon-xitongguanli"
+    },
+    "path": "/system",
+    "children": [
+      {
+        "meta": {
+          "title": "角色管理"
+        },
+        "path": "/system/role-management",
+        "children": [
+          {
+            "path": "/system/role-management/app-1",
+            "appMicroConfig": {
+              "code": "system",
+              "entryUrl": "//localhost:3018"
+            }
+          },
+          {
+            "path": "/system/role-management/app-2",
+            "appMicroConfig": {
+              "code": "system",
+              "entryUrl": "//localhost:3018"
+            }
+          },
+          {
+            "path": "/system/role-management/app-3",
+            "appMicroConfig": {
+              "code": "system",
+              "entryUrl": "//localhost:3018"
+            }
+          },
+          {
+            "path": "/system/role-management/app-4",
+            "appMicroConfig": {
+              "code": "system",
+              "entryUrl": "//localhost:3018"
+            }
+          },
+          {
+            "path": "/system/role-management/app-5",
+            "appMicroConfig": {
+              "code": "system",
+              "entryUrl": "//localhost:3018"
+            }
+          },
+          {
+            "path": "/system/role-management/app-6",
+            "appMicroConfig": {
+              "code": "system",
+              "entryUrl": "//localhost:3018"
+            }
+          },
+          {
+            "path": "/system/role-management/app-7",
+            "appMicroConfig": {
+              "code": "system",
+              "entryUrl": "//localhost:3018"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "system",
+          "entryUrl": "//localhost:3018"
+        }
+      }
+    ],
+    "appMicroConfig": {
+      "code": "system",
+      "entryUrl": "//localhost:3018"
+    }
+  },
+  {
+    "order": 3,
+    "meta": {
+      "title": "用户中心",
+      "icon": "icon-yonghuzhongxin"
+    },
+    "path": "/user-center",
+    "children": [
+      {
+        "meta": {
+          "title": "组织架构管理"
+        },
+        "path": "/user-center/organizational-management",
+        "children": [
+          {
+            "path": "/user-center/organizational-management/tag-management",
+            "appMicroConfig": {
+              "code": "user-center",
+              "entryUrl": "//localhost:3018"
+            }
+          },
+          {
+            "path": "/user-center/organizational-management/detail/:id",
+            "appMicroConfig": {
+              "code": "user-center",
+              "entryUrl": "//localhost:3018"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "user-center",
+          "entryUrl": "//localhost:3018"
+        }
+      },
+      {
+        "meta": {
+          "title": "岗位权限配置"
+        },
+        "path": "/user-center/position-power",
+        "appMicroConfig": {
+          "code": "user-center",
+          "entryUrl": "//localhost:3018"
+        }
+      },
+      {
+        "meta": {
+          "title": "岗位信息管理"
+        },
+        "path": "/user-center/position-management",
+        "children": [
+          {
+            "path": "/user-center/position-management/add",
+            "appMicroConfig": {
+              "code": "user-center",
+              "entryUrl": "//localhost:3018"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "user-center",
+          "entryUrl": "//localhost:3018"
+        }
+      },
+      {
+        "meta": {
+          "title": "用户管理"
+        },
+        "path": "/user-center/staff-account",
+        "children": [
+          {
+            "path": "/user-center/staff-account/ae",
+            "appMicroConfig": {
+              "code": "user-center",
+              "entryUrl": "//localhost:3018"
+            }
+          },
+          {
+            "path": "/user-center/staff-account/ae",
+            "appMicroConfig": {
+              "code": "user-center",
+              "entryUrl": "//localhost:3018"
+            }
+          },
+          {
+            "path": "/user-center/staff-account/config/:id",
+            "appMicroConfig": {
+              "code": "user-center",
+              "entryUrl": "//localhost:3018"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "user-center",
+          "entryUrl": "//localhost:3018"
+        }
+      }
+    ],
+    "appMicroConfig": {
+      "code": "user-center",
+      "entryUrl": "//localhost:3018"
+    }
+  }
+]

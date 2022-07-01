@@ -1,0 +1,95 @@
+[
+  {
+    "order": 4,
+    "meta": {
+      "title": "财务中心",
+      "icon": "icon-feiyongzhongxin"
+    },
+    "path": "/cost-manage",
+    "children": [
+      {
+        "meta": {
+          "title": "货柜系统费用管理"
+        },
+        "path": "/cost-manage/cost-durian",
+        "children": [
+          {
+            "meta": {
+              "title": "调拨费用审核"
+            },
+            "path": "/cost-manage/cost-durian/transfer-cost-audit",
+            "appMicroConfig": {
+              "code": "cost-manage",
+              "entryUrl": "//localhost:3014"
+            }
+          },
+          {
+            "meta": {
+              "title": "产地费用填写"
+            },
+            "path": "/cost-manage/cost-durian/origin-produce-place",
+            "children": [
+              {
+                "path": "/cost-manage/cost-durian/origin-produce-place/input/:type/:id",
+                "appMicroConfig": {
+                  "code": "cost-manage",
+                  "entryUrl": "//localhost:3014"
+                }
+              },
+              {
+                "path": "/cost-manage/cost-durian/origin-produce-place/detail/:type/:id",
+                "appMicroConfig": {
+                  "code": "cost-manage",
+                  "entryUrl": "//localhost:3014"
+                }
+              }
+            ],
+            "appMicroConfig": {
+              "code": "cost-manage",
+              "entryUrl": "//localhost:3014"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "cost-manage",
+          "entryUrl": "//localhost:3014"
+        }
+      },
+      {
+        "meta": {
+          "title": "批发系统费用管理"
+        },
+        "path": "/cost-manage/cost-wholesale",
+        "children": [
+          {
+            "meta": {
+              "title": "回款费用查看"
+            },
+            "path": "/cost-manage/cost-wholesale/payment-return",
+            "children": [
+              {
+                "path": "/cost-manage/cost-wholesale/payment-return/detail/:id",
+                "appMicroConfig": {
+                  "code": "cost-manage",
+                  "entryUrl": "//localhost:3014"
+                }
+              }
+            ],
+            "appMicroConfig": {
+              "code": "cost-manage",
+              "entryUrl": "//localhost:3014"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "cost-manage",
+          "entryUrl": "//localhost:3014"
+        }
+      }
+    ],
+    "appMicroConfig": {
+      "code": "cost-manage",
+      "entryUrl": "//localhost:3014"
+    }
+  }
+]

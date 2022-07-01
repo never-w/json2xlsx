@@ -1,0 +1,126 @@
+[
+  {
+    "order": 5,
+    "meta": {
+      "title": "生产管理",
+      "icon": "icon-shengchanguanli"
+    },
+    "path": "/production",
+    "children": [
+      {
+        "meta": {
+          "title": "商品管理"
+        },
+        "path": "/production/commodity/list",
+        "children": [
+          {
+            "path": "/production/commodity/list/add",
+            "appMicroConfig": {
+              "code": "production",
+              "entryUrl": "//localhost:3016"
+            }
+          },
+          {
+            "path": "/production/commodity/list/sku/:id",
+            "appMicroConfig": {
+              "code": "production",
+              "entryUrl": "//localhost:3016"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "production",
+          "entryUrl": "//localhost:3016"
+        }
+      },
+      {
+        "meta": {
+          "title": "运营监管"
+        },
+        "path": "/production/operation-supervision",
+        "children": [
+          {
+            "meta": {
+              "title": "生产监管"
+            },
+            "path": "/production/operation-supervision/production-list",
+            "children": [
+              {
+                "path": "/production/operation-supervision/production-list/production-plan",
+                "appMicroConfig": {
+                  "code": "production",
+                  "entryUrl": "//localhost:3016"
+                }
+              },
+              {
+                "path": "/production/operation-supervision/production-list/production-task",
+                "appMicroConfig": {
+                  "code": "production",
+                  "entryUrl": "//localhost:3016"
+                }
+              }
+            ],
+            "appMicroConfig": {
+              "code": "production",
+              "entryUrl": "//localhost:3016"
+            }
+          },
+          {
+            "meta": {
+              "title": "业务监管"
+            },
+            "path": "/production/operation-supervision/business-list",
+            "appMicroConfig": {
+              "code": "production",
+              "entryUrl": "//localhost:3016"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "production",
+          "entryUrl": "//localhost:3016"
+        }
+      },
+      {
+        "meta": {
+          "title": "标签管理"
+        },
+        "path": "/production/tag-management",
+        "appMicroConfig": {
+          "code": "production",
+          "entryUrl": "//localhost:3016"
+        }
+      },
+      {
+        "meta": {
+          "title": "成品BOM管理"
+        },
+        "path": "/production/finished-product-BOM",
+        "children": [
+          {
+            "path": "/production/finished-product-BOM/add",
+            "appMicroConfig": {
+              "code": "production",
+              "entryUrl": "//localhost:3016"
+            }
+          },
+          {
+            "path": "/production/finished-product-BOM/edit/:BOMId/:SKUId",
+            "appMicroConfig": {
+              "code": "production",
+              "entryUrl": "//localhost:3016"
+            }
+          }
+        ],
+        "appMicroConfig": {
+          "code": "production",
+          "entryUrl": "//localhost:3016"
+        }
+      }
+    ],
+    "appMicroConfig": {
+      "code": "production",
+      "entryUrl": "//localhost:3016"
+    }
+  }
+]

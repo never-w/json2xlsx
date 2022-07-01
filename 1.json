@@ -1,0 +1,580 @@
+[
+  {
+    "path": "/dashboard",
+    "component": {},
+    "meta": {
+      "menu": {
+        "title": "首页",
+        "icon": "icon-shouye"
+      }
+    }
+  },
+  {
+    "order": 1,
+    "path": "/base-data",
+    "component": {
+      "compare": null
+    },
+    "meta": {
+      "menu": {
+        "title": "基础管理",
+        "icon": "icon-jichuguanli"
+      }
+    },
+    "routes": [
+      {
+        "path": "/base-data/commodity",
+        "component": {
+          "compare": null
+        },
+        "authKey": "OSS_BASIC_COMMODITY_FUNCTION",
+        "meta": {
+          "menu": {
+            "title": "商品管理"
+          }
+        },
+        "routes": [
+          {
+            "path": "/base-data/commodity/list",
+            "meta": {
+              "menu": {
+                "title": "商品基础管理"
+              },
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "商品管理"
+                  },
+                  {
+                    "name": "商品基础管理"
+                  }
+                ]
+              }
+            },
+            "component": {},
+            "routes": [
+              {
+                "path": "/base-data/commodity/list/add",
+                "meta": {
+                  "breadcrumb": {
+                    "items": [
+                      {
+                        "name": "基础管理"
+                      },
+                      {
+                        "name": "商品管理"
+                      },
+                      {
+                        "name": "商品基础管理",
+                        "path": "/base-data/commodity/list"
+                      },
+                      {
+                        "name": "添加商品"
+                      }
+                    ]
+                  }
+                },
+                "component": {}
+              },
+              {
+                "path": "/base-data/commodity/list/edit-spec/:id",
+                "meta": {
+                  "breadcrumb": {
+                    "items": [
+                      {
+                        "name": "基础管理"
+                      },
+                      {
+                        "name": "商品管理"
+                      },
+                      {
+                        "name": "商品基础管理",
+                        "path": "/base-data/commodity/list"
+                      },
+                      {
+                        "name": "修改规格"
+                      }
+                    ]
+                  }
+                },
+                "component": {}
+              },
+              {
+                "path": "/base-data/commodity/list/sku/:id",
+                "meta": {
+                  "breadcrumb": {
+                    "items": [
+                      {
+                        "name": "基础管理"
+                      },
+                      {
+                        "name": "商品管理"
+                      },
+                      {
+                        "name": "商品基础管理",
+                        "path": "/base-data/commodity/list"
+                      },
+                      {
+                        "name": "管理SKU"
+                      }
+                    ]
+                  }
+                },
+                "component": {}
+              }
+            ]
+          },
+          {
+            "path": "/base-data/commodity/classification",
+            "meta": {
+              "menu": {
+                "title": "商品分类"
+              },
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "商品管理"
+                  },
+                  {
+                    "name": "商品分类"
+                  }
+                ]
+              }
+            },
+            "component": {},
+            "routes": [
+              {
+                "path": "/base-data/commodity/classification/variety/:id",
+                "meta": {
+                  "breadcrumb": {
+                    "items": [
+                      {
+                        "name": "基础管理"
+                      },
+                      {
+                        "name": "商品管理"
+                      },
+                      {
+                        "name": "商品分类",
+                        "path": "/base-data/commodity/classification"
+                      },
+                      {
+                        "name": "商品管理品种/产地"
+                      }
+                    ]
+                  }
+                },
+                "component": {}
+              }
+            ]
+          },
+          {
+            "path": "/base-data/commodity/place",
+            "component": {},
+            "meta": {
+              "menu": {
+                "title": "商品产地管理"
+              },
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "商品产地管理"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "path": "/base-data/varieties-group-management",
+        "component": {},
+        "authKey": "OSS_VARIETY_GROUP_MANAGEMENT_FUNCTION",
+        "meta": {
+          "menu": {
+            "title": "品种组管理"
+          },
+          "breadcrumb": {
+            "items": [
+              {
+                "name": "基础管理"
+              },
+              {
+                "name": "品种组管理"
+              }
+            ]
+          }
+        },
+        "routes": [
+          {
+            "path": "/base-data/varieties-group-management/varieties-group-sku-management/:id",
+            "component": {},
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "品种组管理",
+                    "path": "/base-data/varieties-group-management"
+                  },
+                  {
+                    "name": "管理SKU"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "path": "/base-data/supplier-management",
+        "component": {},
+        "authKey": "OSS_SUPPLIER_MANAGEMENT_FUNCTION",
+        "meta": {
+          "menu": {
+            "title": "供应商管理"
+          },
+          "breadcrumb": {
+            "items": [
+              {
+                "name": "基础管理"
+              },
+              {
+                "name": "供应商管理"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "path": "/base-data/storage-management",
+        "component": {},
+        "authKey": "OSS_FRUIT_STORAGE_MANAGEMENT_FUNCTION",
+        "meta": {
+          "menu": {
+            "title": "水果存储管理"
+          },
+          "breadcrumb": {
+            "items": [
+              {
+                "name": "基础管理"
+              },
+              {
+                "name": "水果存储管理"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "path": "/base-data/customer-management",
+        "component": {},
+        "authKey": "OSS_CUSTOMER_MANAGEMENT_FUNCTION",
+        "meta": {
+          "menu": {
+            "title": "客户管理"
+          },
+          "breadcrumb": {
+            "items": [
+              {
+                "name": "基础管理"
+              },
+              {
+                "name": "客户管理"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "path": "/base-data/fee/management",
+        "component": {},
+        "authKey": "OSS_EXPENSE_MANAGEMENT_FUNCTION",
+        "meta": {
+          "menu": {
+            "title": "费用项管理"
+          },
+          "breadcrumb": {
+            "items": [
+              {
+                "name": "基础管理"
+              },
+              {
+                "name": "费用项管理"
+              }
+            ]
+          }
+        },
+        "routes": [
+          {
+            "path": "/base-data/fee/management/detail",
+            "component": {},
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "费用项管理",
+                    "path": "/base-data/fee/management"
+                  },
+                  {
+                    "name": "详情"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "path": "/base-data/fee/management/fee-rule/add",
+            "component": {},
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "费用项管理",
+                    "path": "/base-data/fee/management"
+                  },
+                  {
+                    "name": "费用项类型新增"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "path": "/base-data/fee/management/fee-rule/edit",
+            "component": {},
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "费用项管理",
+                    "path": "/base-data/fee/management"
+                  },
+                  {
+                    "name": "费用项类型新增"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "path": "/base-data/fee/management/rule-config",
+            "component": {},
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "基础管理"
+                  },
+                  {
+                    "name": "费用项管理",
+                    "path": "/base-data/fee/management"
+                  },
+                  {
+                    "name": "费用项类型新增"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "path": "/system",
+    "component": {
+      "compare": null
+    },
+    "meta": {
+      "menu": {
+        "title": "系统管理",
+        "icon": "icon-xitongguanli"
+      }
+    },
+    "routes": [
+      {
+        "path": "/system/role-management",
+        "component": {},
+        "meta": {
+          "menu": {
+            "title": "角色管理"
+          },
+          "breadcrumb": {
+            "items": [
+              {
+                "name": "系统管理"
+              },
+              {
+                "name": "角色管理"
+              }
+            ]
+          }
+        },
+        "routes": [
+          {
+            "path": "/system/role-management/app-1",
+            "component": {},
+            "authKey": "OSS_ROLE_CONFIGURATION_FUNCTION_DURIAN",
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "系统管理"
+                  },
+                  {
+                    "name": "角色管理"
+                  },
+                  {
+                    "name": "货柜管理系统"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "path": "/system/role-management/app-2",
+            "component": {},
+            "authKey": "OSS_ROLE_CONFIGURATION_FUNCTION_PITAYA",
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "系统管理"
+                  },
+                  {
+                    "name": "角色管理"
+                  },
+                  {
+                    "name": "星桥生产系统"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "path": "/system/role-management/app-3",
+            "component": {},
+            "authKey": "OSS_ROLE_CONFIGURATION_FUNCTION_OPERATION",
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "系统管理"
+                  },
+                  {
+                    "name": "角色管理"
+                  },
+                  {
+                    "name": "运营支撑平台"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "path": "/system/role-management/app-4",
+            "component": {},
+            "authKey": "OSS_ROLE_CONFIGURATION_FUNCTION_PEACH",
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "系统管理"
+                  },
+                  {
+                    "name": "角色管理"
+                  },
+                  {
+                    "name": "星桥批发系统"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "path": "/system/role-management/app-5",
+            "component": {},
+            "authKey": "OSS_ROLE_CONFIGURATION_FUNCTION_LONGAN",
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "系统管理"
+                  },
+                  {
+                    "name": "角色管理"
+                  },
+                  {
+                    "name": "星图系统"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "path": "/system/role-management/app-6",
+            "component": {},
+            "authKey": "OSS_ROLE_CONFIGURATION_FUNCTION_CUSTOMS",
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "系统管理"
+                  },
+                  {
+                    "name": "角色管理"
+                  },
+                  {
+                    "name": "关务管理系统"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "path": "/system/role-management/app-7",
+            "component": {},
+            "authKey": "OSS_ROLE_CONFIGURATION_FUNCTION_TRANSPORTATION",
+            "meta": {
+              "breadcrumb": {
+                "items": [
+                  {
+                    "name": "系统管理"
+                  },
+                  {
+                    "name": "角色管理"
+                  },
+                  {
+                    "name": "运输管理系统"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
